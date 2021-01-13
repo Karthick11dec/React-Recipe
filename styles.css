@@ -1,0 +1,141 @@
+/* .img{
+    width: 100% !important;
+    height:20%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+} */
+.verticle{
+    position: relative;
+    padding-top:15px;
+}
+.link{
+    color:navy !important;
+    text-decoration:none !important;
+}
+h2{
+    font-family: 'Teko', sans-serif;
+    justify-content: center;
+    color:navy;
+    text-align: center;
+    padding:15px;
+}
+.color{
+    font-family: 'Lobster', cursive;
+    text-align: center;font-weight: 180px;
+    font-size: 40px;
+    color:rgb(240, 124, 16)
+}
+h1>span{
+    color:navy;
+}
+.btag{
+    font-size:20px;
+    font-weight:70px !important;
+}
+a>b{
+    font-size:20px;
+    font-weight:70px !important;
+}
+h1>b>span{
+    color:rgb(255, 34, 34);
+}
+ul>li>a>span{
+    display: inline;
+    text-align: center;
+    color:black !important;
+}
+footer{
+    padding:20px;
+    background-color:rgb(216, 208, 208);
+}
+.icon-color{
+    color: black !important;
+}
+.text-muted{
+color: black !important;
+}
+li>a>i:hover{
+    color:rgb(255, 34, 34) !important;
+}
+.btn{
+    border-radius:0%;
+}
+
+.spl{
+    padding-top:40px;
+    padding-bottom:40px;
+}
+.border{
+    border-radius:10px;
+    border:1px solid black !important;
+}
+.hiver:hover{
+    color:rgb(240, 124, 16) !important;
+}
+.grid{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    background-color: black;
+    justify-content: center;
+    grid-gap:10px;
+}
+.input{
+    text-align: center;
+    border-color:red !important;
+    font-family: 'Teko', sans-serif;
+    width: 400px;
+    font-weight:400;
+    font-size: 25px;
+}
+img{
+    width:20rem;
+}
+.cc{
+    font-family: 'Teko', sans-serif;
+    color:rgb(224, 0, 0);
+    justify-content: left;
+    font-size:25px;
+}
+.cd{
+    font-family:sans-serif;
+    justify-content: left;
+    font-size:17px;
+}
+.cb{
+    font-family: 'Teko', sans-serif;
+    font-size:20px;
+}
+.cardo:hover{
+   background-color:rgb(255, 166, 0);
+}
+.cardo{
+    border-radius:80px 0px;
+    background-color:rgb(153, 112, 9);
+}
+
+.cardo-body{
+    border-radius:0px 0px 80px 0px;
+    background-color:rgb(255, 227, 166);
+}
+
+.pad{
+    padding:50px 0px 50px 0px;
+}
+@media screen and (max-width:1000px){
+    .grid{
+    grid-template-columns:auto auto;
+    background-color:black;
+    grid-gap:10px;
+    justify-content: center;
+    }
+}
+@media screen and (max-width:790px){
+    .grid{
+    grid-template-columns:auto;
+    background-color:black;
+    grid-gap:10px;
+    justify-content: center;
+    }
+}
